@@ -27,7 +27,8 @@ Note: path information should be modified as appropriate.
 
 #### Example 1: Function level Cyclomatic Complexity \& Instruction Sequences
 
-[![Smoothing the cyclomatic complexity](https://github.com/Kayla0x41/BiFECT/resources/cc_gif.gif)](https://github.com/Kayla0x41/BiFECT/resources/cc_gif.gif)
+![Smoothing the cyclomatic complexity](https://github.com/Kayla0x41/BiFECT/resources/cc_gif.gif)
+
 In the ```auto_bindiff.py``` script, this line,
 ```python
 exporter.export(f, currentProgram, addr_set, monitor)
