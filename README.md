@@ -67,13 +67,13 @@ If you want to follow along with this example,
 #### Step 2. Feature Cleaning
 ![Smoothing the cyclomatic complexity](https://github.com/Kayla0x41/BiSECT/blob/773eeef2e64a64da99b9ec1386f000d2e30e7885/resources/cc_gif.gif)
 
-#### Step 3. Feature Tranformation
+#### Step 3. Feature Transformation
+BiSECT provides data aggregation, normalization, and feature construction transformations
 
+#### Step 4. Learn!
+After extracting, cleaning, and transforming features, the next step is to use the built in representation models or another popular model like `doc2vec` or `fastText`. In any case, the goal is to use `BiSECT` features to learn something about your data. 
 
-In the ```auto_bindiff.py``` script, this line,
-```python
-exporter.export(f, currentProgram, addr_set, monitor)
-```
+As an example, check out the `xxx.ipny` notebook based on our [paper](link)
 
 ## Author Information
 Kayla Afanador, knkeen@nps.edu
