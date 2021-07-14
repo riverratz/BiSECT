@@ -93,6 +93,9 @@ When in doubt you can always check out `bisect_main.py -h` to see a list of avai
 ##### Option 2. BiSECT Jupyter
 If you're at odds with the command line or perhaps simply prefer a more interactive experience, you can access all of the features offered by `BiSECT` via our Jupyter notebook, `BiSECT_main.ipny`.
 
+![BiSECT Jupyter](https://github.com/Kayla0x41/BiSECT/blob/149066c8ec029f026f0233fcc056cc8ba7cae2db/resources/gifs/bisect_jupyter.gif)
+
+
 #### Step 3. Learn!
 After extracting, cleaning, and transforming features, the next step is to use the built in representation models or another popular model like `doc2vec` or `fastText`. In any case, the goal is to use `BiSECT` features to learn something about your data.
 
