@@ -31,10 +31,10 @@ This repository contains everything you need to get started with BiSECT. BiSECT 
 
 ### How it works...
 
-We recommend reviewing one of the Jupyter notebooks in the `/jupyter_notebooks` directory of this repo. However, here are a few tips to get you started:
+We recommend checking out `BiSECT_main.ipny` in the `bisect/` directory of this repo. However, here are a few tips to get you started:
 
 #### Extracting function and file information using Ghidra headless
-Users may run any of the `*_ghidra.py` scripts in the `feature_extractions` directory of this repo via Ghidra headless like so,
+You can run any of the `*_ghidra.py` scripts in the `feature_extractions` directory of this repo via Ghidra headless like so,
 
 ```
 /home/user/.local/java_applications/ghidra_9.1.2_PUBLIC/support/analyzeHeadless /home/user/Desktop/ TestProject -import /home/user/Desktop/bath_to_binaries/ -deleteProject -analysisTimeoutPerFile 100 -scriptPath /home/user/Desktop/ -postScript /home/user/Desktop/sample_functions_cpy.py -scriptlog /home/user/Desktop/log.log
@@ -44,7 +44,7 @@ Note: path information should be modified as appropriate.
 
 
 #### Extracting function and file information using raw Python
-Users may run any of the `*_python.py` scripts in the `feature_extractions` directory of this repo via the command line like so,
+You can also run any of the `*_python.py` scripts in the `feature_extractions` directory of this repo via the command line like so,
 
 ```
 ./script_extraction_python.py path/to/binaries
@@ -99,7 +99,7 @@ If you're at odds with the command line or perhaps simply prefer a more interact
 #### Step 3. Learn!
 After extracting, cleaning, and transforming features, the next step is to use the built in representation models or another popular model like `doc2vec` or `fastText`. In any case, the goal is to use `BiSECT` features to learn something about your data.
 
-As an example, check out the `xxx.ipny` notebook based on our [paper](link)
+**Coming Soon** As an example, check out the `xxx.ipny` notebook based on our [paper](link) **Coming Soon** 
 
 ## Author Information
 Kayla Afanador, knkeen@nps.edu
