@@ -88,12 +88,10 @@ Ultimately, and regardless of the flags you select, `BiSECT` will create a new f
 
 When in doubt you can always check out `bisect_main.py -h` to see a list of available command line arguments.
 
-![BiSECT Command Line](https://github.com/Kayla0x41/BiSECT/blob/773eeef2e64a64da99b9ec1386f000d2e30e7885/resources/gifs/bisect_commandLine.gif)
+![BiSECT Command Line](https://github.com/Kayla0x41/BiSECT/blob/4081217556dc43f66a1b8bc068a1f8a2379ae278/resources/gifs/bisect_commandLine.gif)
 
 ##### Option 2. BiSECT Jupyter
 If you're at odds with the command line or perhaps simply prefer a more interactive experience, you can access all of the features offered by `BiSECT` via our Jupyter notebook, `BiSECT_main.ipny`.
-
-![BiSECT Jupyter](https://github.com/Kayla0x41/BiSECT/blob/773eeef2e64a64da99b9ec1386f000d2e30e7885/resources/gifs/bisect_jupyter.gif)
 
 #### Step 3. Learn!
 After extracting, cleaning, and transforming features, the next step is to use the built in representation models or another popular model like `doc2vec` or `fastText`. In any case, the goal is to use `BiSECT` features to learn something about your data.
