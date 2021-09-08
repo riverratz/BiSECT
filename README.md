@@ -1,6 +1,6 @@
 # BiSECT
 
-The BiSECT (Binary Semantic, Extraction, Cleaning, and Transformation) framework provides a user-friendly and repeatable means to extract common features from compiled binary files and transform them into a format compatible with data mining and machine learning techniques. We designed BiSECT to support vulnerability research, but we encourage users to extend and use BiSECT in any way that's useful to them.
+The BiSECT (Binary Synthesized, Extraction, Cleaning, and Transformation) framework provides a user-friendly and synthesized means to extract common features from compiled binary files and transform them into a format compatible with data mining and machine learning techniques. We designed BiSECT to support vulnerability research, but we encourage users to extend and use BiSECT in any way that's useful to them.
 
 ## Prerequisites:
 - Python
