@@ -88,7 +88,7 @@ Ultimately, and regardless of the flags you select, `BiSECT` will create a new f
 
 When in doubt you can always check out `bisect_main.py -h` to see a list of available command line arguments.
 
-![BiSECT Command Line](https://github.com/Kayla0x41/BiSECT/blob/4081217556dc43f66a1b8bc068a1f8a2379ae278/resources/gifs/bisect_commandLine.gif)
+![BiSECT Command Line](linkredacted) #link redacted
 
 ##### Option 2. BiSECT Jupyter
 If you're at odds with the command line or perhaps simply prefer a more interactive experience, you can access all of the features offered by `BiSECT` via our Jupyter notebook, `BiSECT_main.ipny`.
