@@ -102,4 +102,4 @@ After extracting, cleaning, and transforming features, the next step is to use t
 **Coming Soon** As an example, check out the `xxx.ipny` notebook based on our [paper](link) **Coming Soon** 
 
 ## Author Information
-Kayla Afanador, knkeen@nps.edu
+-- redacted -- 
