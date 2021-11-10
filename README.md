@@ -31,7 +31,7 @@ This repository contains everything you need to get started with BiSECT. BiSECT 
 
 ### How it works...
 
-We recommend checking out `BiSECT_main.ipny` in the `bisect/` directory of this repo. However, here are a few tips to get you started:
+We recommend checking out `BiSECT_main.ipynb` in the `bisect/` directory of this repo. However, here are a few tips to get you started:
 
 #### Extracting function and file information using Ghidra headless
 You can run any of the `*_ghidra.py` scripts in the `feature_extractions` directory of this repo via Ghidra headless like so,
@@ -69,7 +69,7 @@ time python bisect_main.py ~/Desktop/BiSECT-main/feature_extractions/ghidra_func
 #### Step 2. Cleaning and Transformation
 To use the cleaning and transformations provided by `BiSECT` you have two options:
 1. `BiSECT` command line (`bisect_main.py`)
-2. `BiSECT` Jupyter (`bisect_main.ipny`)
+2. `BiSECT` Jupyter (`bisect_main.ipynb`)
 
 ##### Option 1. BiSECT Command Line
 To run `BiSECT` via the command line simply point `BiSECT_main.py` to the file you want to bisect (e.g., the feature file created in Step 1). Something like this should do the trick:
@@ -91,7 +91,7 @@ When in doubt you can always check out `bisect_main.py -h` to see a list of avai
 ![BiSECT Command Line](linkredacted) #link redacted
 
 ##### Option 2. BiSECT Jupyter
-If you're at odds with the command line or perhaps simply prefer a more interactive experience, you can access all of the features offered by `BiSECT` via our Jupyter notebook, `BiSECT_main.ipny`.
+If you're at odds with the command line or perhaps simply prefer a more interactive experience, you can access all of the features offered by `BiSECT` via our Jupyter notebook, `BiSECT_main.ipynb`.
 
 ![BiSECT Jupyter](https://github.com/Kayla0x41/BiSECT/blob/149066c8ec029f026f0233fcc056cc8ba7cae2db/resources/gifs/bisect_jupyter.gif)
 
@@ -99,7 +99,7 @@ If you're at odds with the command line or perhaps simply prefer a more interact
 #### Step 3. Learn!
 After extracting, cleaning, and transforming features, the next step is to use the built in representation models or another popular model like `doc2vec` or `fastText`. In any case, the goal is to use `BiSECT` features to learn something about your data.
 
-**Coming Soon** As an example, check out the `xxx.ipny` notebook based on our [paper](link) **Coming Soon** 
+As an example, check out the [`identifyVulnFcs.ipynb`](https://github.com/Kayla0x41/BiSECT/blob/main/examples/identifyVulnFcs.ipynb) notebook. 
 
 ## Author Information
--- redacted -- 
+-- anonymous -- 
